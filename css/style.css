@@ -1,0 +1,154 @@
+
+/* Header */
+
+body {
+    margin: 0; padding: 0;
+    direction: rtl;
+}
+
+h1 {
+    color: darkred;
+    font-size: 180%;
+    text-align: right;
+    margin-right: 20px
+}
+
+#table1 {
+    width: 100%;
+    text-align: left;
+}
+
+#td_h1 {
+    width: 300px;
+}
+
+#logo {
+    width: 30%;
+}
+
+nav {
+    background-color: darkred;
+    text-align: center;
+    padding: 5px;
+}
+
+nav a {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main */
+
+div {
+    color: white;
+    height: 100vh;
+    text-align: center;
+    background-image: url("../img/main/background1.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div h2 {
+    font-size: 250%;
+    margin-bottom: 0;
+}
+
+div p {
+    font-size: large;
+}
+
+div button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    background-color: darkred;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+#button {
+font-size: 10%;
+}
+
+h3 {
+    color: blue;
+    text-align: right;
+    font-size: 150%;
+}
+
+p, ul {
+    text-align: right;
+    font-size: larger;
+}
+
+#work img {
+    width: 22%;
+    margin: 1%;
+    border-radius: 10%;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2)
+}
+
+fieldset {
+    margin: 20px;
+    text-align: right;
+    border-radius: 30px;
+    background-color: #efefef;
+    border: 1px solid #ccc;
+}
+
+legend {
+    text-align: center;
+    background-color: #efefef;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    color: darkred;
+    font-size: 200%;
+    font-weight: bold;
+
+}
+
+#work-img {
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: darkred;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+footer h3 {
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+footer img {
+    width: 2%;
+    margin: 0;
+}
+
+footer p {
+    text-align: center;
+    font-size: large;
+    color: white;
+}
